@@ -24,6 +24,8 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # BootIMG
+LZMA_RAMDISK_TARGETS := recovery
+BOARD_RAMDISK_USE_LZMA := true
 BOARD_KERNEL_CMDLINE := \
     androidboot.hardware=exynos9610 \
     androidboot.selinux=permissive
