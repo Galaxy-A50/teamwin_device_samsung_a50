@@ -46,3 +46,6 @@ BOARD_INCLUDE_RECOVERY_DTBO := true
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := universal9610
 
+# Platform
+TARGET_BOARD_PLATFORM := exynos9610
+
