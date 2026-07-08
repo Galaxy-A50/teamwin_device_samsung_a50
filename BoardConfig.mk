@@ -68,6 +68,9 @@ BOARD_ROOT_EXTRA_FOLDERS += omr
 # Mke2FS
 TARGET_USES_MKE2FS := true
 
+# Copy Out
+TARGET_COPY_OUT_VENDOR := vendor
+
 ## Recovery Flags
 # Recovery
 TARGET_SCREEN_WIDTH := 1080
