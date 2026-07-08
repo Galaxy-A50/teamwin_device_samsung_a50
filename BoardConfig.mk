@@ -49,3 +49,7 @@ TARGET_BOOTLOADER_BOARD_NAME := universal9610
 # Platform
 TARGET_BOARD_PLATFORM := exynos9610
 
+## Partitions
+# Userimages
+TARGET_USERIMAGES_USE_EXT4 := true
+TARGET_USERIMAGES_USE_F2FS := true
